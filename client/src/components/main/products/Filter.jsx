@@ -40,8 +40,8 @@ function Filter() {
             <div className="filter-select">
                 <span>Sắp xếp theo: </span>
                 <select name="sort" value={sort} onChange={e=>setSort(e.target.value)} >
-                    <option value="">Mới</option>
-                    <option value="sort=oldest">Cũ</option>
+                    <option value="sort=-createdAt">Mới</option>
+                    <option value="sort=createdAt">Cũ</option>
                     <option value="sort=-sold">Bán chạy</option>
                     <option value="sort=-price">Giá: Cao-Thấp</option>
                     <option value="sort=price">Giá: Thấp-Cao</option>
