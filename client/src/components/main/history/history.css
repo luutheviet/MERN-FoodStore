@@ -1,0 +1,17 @@
+.history-page .table-order {
+    margin: auto;
+    width: 100%;
+}
+
+.history-page .table-order,
+.th-order,
+.tr-order,
+.td-order {
+    border: 1px solid #ddd;
+}
+
+.th-order,
+.td-order {
+    text-align: center;
+    padding: 10px;
+}

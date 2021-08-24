@@ -1,0 +1,72 @@
+:root {
+    --primary: #D1333C;
+    --btnbuy: #FFD141;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none
+}
+
+button:focus {
+    outline: none
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+@import url('./components/header/header.css');
+@import url('./components/main/products/product/product.css');
+@import url('./components/main/section/section.css');
+@import url('./components/main/detailProduct/detailProduct.css');
+@import url('./components/main/auth/loginRegister.css');
+@import url('./components//main//cart/cart.css');
+@import url('./components/main/history/history.css');
+@import url('./components/main/createProduct/createProduct.css');
+@import url('./components/main/detailProduct/detail.css');
