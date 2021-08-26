@@ -26,10 +26,6 @@
     font-size: 1rem;
 }
 
-.login form input:focus {
-    border: 1px solid var(--primary);
-}
-
 .login form .btn-login-register {
     display: flex;
     justify-content: space-between;
@@ -52,7 +48,7 @@
 
 .input-field {
     position: relative;
-    margin: 20px 0px;
+    margin: 32px 0px;
 }
 
 .input-field label {
@@ -81,4 +77,28 @@
     .login {
         margin: 50px auto;
     }
+}
+
+.valid {
+    border: 1px solid #1dbfaf !important;
+}
+
+.invalid {
+    border: 1px solid #f33a58 !important;
+}
+
+.form-message {
+    position: absolute;
+    font-size: 0.75rem;
+    left: 8px;
+    bottom: -22px;
+    color: #f33a58;
+}
+
+.lable-input.label-valid {
+    color: #1dbfaf !important;
+}
+
+.lable-input.label-invalid {
+    color: #f33a58 !important;
 }
