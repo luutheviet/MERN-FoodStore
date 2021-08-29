@@ -43,7 +43,7 @@ function Products() {
     return (
         <>
             
-            <div className="product-container-wrap" style={{paddingBottom:80}}>
+            <div className="product-container-wrap" style={{paddingBottom:80,marginTop:40}}>
                 <div className="product-container container">
                     <Filter />
                     <div className="row">

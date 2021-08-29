@@ -70,3 +70,5 @@ a:hover {
 @import url('./components/main/history/history.css');
 @import url('./components/main/createProduct/createProduct.css');
 @import url('./components/main/detailProduct/detail.css');
+@import url('./components/main/slider/homeSlider.css');
+@import url('./components/footer/footer.css');

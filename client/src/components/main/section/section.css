@@ -29,3 +29,116 @@
 .section-container-li:hover {
     opacity: 0.7;
 }
+
+
+/* -----------------  Banner2  ----------------------- */
+
+.banner-2 {
+    margin-bottom: 60px;
+}
+
+.banner-2-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-2-image {
+    width: 100%;
+    padding-top: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s;
+}
+
+.banner-2-text {
+    background-color: #2b242a;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 20px 0px;
+    pointer-events: none;
+}
+
+.banner-2-image:hover {
+    transform: scale(1.05);
+}
+
+.banner-2-text h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
+.banner-2-text h3 {
+    font-size: 1.2rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {
+    .banner-2-text {
+        position: absolute;
+        width: 100%;
+        padding-left: 44%;
+        padding-right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+    }
+    .banner-2-text h2 {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+    .banner-2-text h3 {
+        font-size: 1.1rem;
+    }
+    .banner-2-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .banner-2-text {
+        position: absolute;
+        padding-left: 50%;
+        padding-right: 5%;
+    }
+    .banner-2-text h2 {
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+    }
+    .banner-2-text h3 {
+        font-size: 1.2rem;
+    }
+    .banner-2-text p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-2-text {
+        position: absolute;
+        padding-left: 50%;
+        padding-right: 5%;
+    }
+    .banner-2-text h2 {
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 2.2rem;
+    }
+    .banner-2-text h3 {
+        font-size: 1.6rem;
+    }
+    .banner-2-text p {
+        font-size: 1rem;
+    }
+}
