@@ -147,7 +147,7 @@ function Header() {
                         </div>
                         <div className="header-contact">
                             <i className="fas fa-phone-volume"></i>
-                            <span>0979825323</span>
+                            <span>0979 825 323</span>
                         </div>
                         {
                             isLogged?isAdmin?adminRouter():loggedRouter():<>
